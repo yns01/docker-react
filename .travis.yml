@@ -7,3 +7,6 @@ before_install:
 
 script:
   - docker run yanis/docker-react npm run test -- --coverage
+
+node_js:
+  - "11.10.1"
